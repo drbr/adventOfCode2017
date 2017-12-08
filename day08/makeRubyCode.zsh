@@ -1,8 +1,7 @@
 #/bin/zsh
 
 # Instructions:
-# ./makeRubyCode.zsh input.txt > day08.rb
-# ruby day08.rb
+# ruby <<< $(./makeRubyCode.zsh input.txt)
 
 filename=$1
 
